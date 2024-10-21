@@ -55,13 +55,6 @@ button {
     height: auto;
 }
 
-.columns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 15px;
-}
-
 .flex {
     display: flex;
     flex-direction: column;
@@ -75,10 +68,25 @@ button {
 .chooseBtn {
     width: 100px;
     height: 40px;
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 
 .dropDown {
     display: none;
+}
+
+
+.regions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.regContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 

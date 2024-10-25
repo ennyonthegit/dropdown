@@ -2,20 +2,29 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
 }
 
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 0 40px;
+
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     width: 100%;
+}
+
+.addBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    flex-wrap: wrap;
 }
 
 .menu {
@@ -41,6 +50,7 @@ button {
     border: 1px solid gray;
     height: 50px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .dropDown {
@@ -48,11 +58,12 @@ button {
     justify-content: space-between;
     flex-direction: column;
     width: 70%;
-    padding: 0 15px;
+    padding: 15px 15px;
     height: 150px;
     border: 1px solid gray;
     margin-top: 5px;
     height: auto;
+    min-width: 120px;
 }
 
 .flex {
@@ -63,6 +74,7 @@ button {
 .chooseButton {
     display: flex;
     justify-content: flex-end;
+    height: 60px;
 }
 
 .chooseBtn {
@@ -76,17 +88,44 @@ button {
 }
 
 
-.regions{
+.regions {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
 
-.regContainer{
+.regContainer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    padding: 0 40px;
+}
+
+.logo {
+    border: 1px solid black;
+    width: 50%;
+}
+
+.menu-buttons {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.headerBtn {
+    width: 100%;
+}
